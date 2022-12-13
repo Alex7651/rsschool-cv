@@ -1,12 +1,111 @@
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-html, body{
-    height: 100%;
-    width: 100%;
-    line-height: 1;
-    font-size: 14px;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+textarea {
+  resize: none;
+  overflow-x: scroll;
+  white-space: pre;
+}
+
+.mainblock {
+  background: orange;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 60%;
+  min-height: 200px;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  box-shadow: 10px 0px 10px rgb(31, 31, 31);
+}
+
+.main_title {
+  font-size: 50px;
+  font-weight: 800;
+  flex: 1 0;
+  padding: 30px;
+}
+
+.main_text {
+  max-width: 40%;
+  padding: 30px;
+  text-align: justify;
+}
+
+.informationblock {
+  background: black;
+  padding-bottom: 10%;
+}
+
+.information {
+  background: white;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 10px 0px 10px black;
+}
+
+.column {
+  width: 40%;
+  margin: 20px;
+  align-items: center;
+}
+
+.column img {
+  display: block;
+  margin: 0 auto;
+  margin-top: -150px;
+  margin-bottom: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 10px 10px 40px;
+}
+
+.title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.text {
+  text-align: justify;
+}
+
+footer {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
