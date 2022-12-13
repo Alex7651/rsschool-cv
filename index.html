@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <p>Hello world</p>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>My site</h1>
+    </header>
+    <main>
+      <div class="mainblock">
+        <div class="main">
+          <div class="main_title">Alex Pozdnyakov</div>
+          <div class="main_text">
+            The goal is to become a qualified specialist in the field I am
+            interested in. My strengths include the ability to learn and teach,
+            as well as communication skills.
+          </div>
+        </div>
+      </div>
+      <div class="informationblock">
+        <nav class="information">
+          <div class="column">
+            <div class="card">
+              <h2 class="title">contacts</h2>
+              <div class="text">
+                <ul>
+                  <li>lolitomocolizo.dot@mail.ru</li>
+                  <li>Alex Pozdnyakov (@Alex7651)</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <h2 class="title">code-example</h2>
+              <textarea class="text" rows="9" wrap="soft">
+function cakes(recipe, available) {
+let b = Object.keys(recipe)
+let c = []
+for (let i = 0; i < b.length; i++) {
+    if (b[i] in available) c.push(Math.trunc(available[b[i]]/recipe[b[i]]))
+}
+return c.length == b.length ? Math.min.apply(null, c) : 0
+}
+                    </textarea
+              >
+            </div>
+            <div class="card">
+              <h2 class="title">experience</h2>
+              <div class="text">I have no work experience</div>
+            </div>
+          </div>
+
+          <div class="column">
+            <img
+              class="image"
+              src="1.png"
+              width="180"
+              height="250"
+              alt="Это я)"
+            />
+            <div class="card">
+              <h2 class="title">education and skills</h2>
+              <div class="text">
+                <ul>
+                  <li>basic С++</li>
+                  <li>basic Pyton</li>
+                  <li>basic SASS</li>
+                  <li>JS</li>
+                  <li>React (with no completed projects)</li>
+                </ul>
+                Courses on youtube channels (HTML, css, JS, React), "Марафон 5
+                дней" on Result School.
+              </div>
+            </div>
+            <div class="card">
+              <h2 class="title">language</h2>
+              <div class="text">
+                English: study at the language center (6 years). Exchange
+                studies in the UK (month). I'm able to support a conversation
+                and perceive information by ear and when reading. I have not
+                passed paid tests, but I am sure that the level is not lower
+                than B1.
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </main>
+    <footer>
+      <div>https://github.com/Alex7651</div>
+      <div>
+        <a href="https://rs.school/js/"
+          ><img
+            class="image"
+            src="https://rs.school/images/rs_school_js.svg"
+            width="50"
+            height="50"
+            alt="Logo"
+        /></a>
+      </div>
+      <div>2022</div>
+    </footer>
+  </body>
 </html>
