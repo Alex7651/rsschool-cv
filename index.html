@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="style.css" >
     <title>Document</title>
   </head>
   <body>
@@ -39,7 +39,7 @@
 function cakes(recipe, available) {
 let b = Object.keys(recipe)
 let c = []
-for (let i = 0; i < b.length; i++) {
+for (let i = 0; i &lt; b.length; i++) {
     if (b[i] in available) c.push(Math.trunc(available[b[i]]/recipe[b[i]]))
 }
 return c.length == b.length ? Math.min.apply(null, c) : 0
@@ -60,7 +60,7 @@ return c.length == b.length ? Math.min.apply(null, c) : 0
               width="180"
               height="250"
               alt="Это я)"
-            />
+            >
             <div class="card">
               <h2 class="title">education and skills</h2>
               <div class="text">
@@ -99,7 +99,7 @@ return c.length == b.length ? Math.min.apply(null, c) : 0
             width="50"
             height="50"
             alt="Logo"
-        /></a>
+        ></a>
       </div>
       <div>2022</div>
     </footer>
